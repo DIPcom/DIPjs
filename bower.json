@@ -1,0 +1,23 @@
+{
+  "name": "dipcom-dipjs",
+  "description": "DIPjs",
+  "homepage": "https://github.com/DIPcom/DIPjs",
+  "license": "BSD",
+  "moduleType": "globals",
+  "main": [
+    "src/DIP.js"
+  ],
+  "ignore": [
+    "/.*",
+    "_config.yml",
+    "CNAME",
+    "composer.json",
+    "CONTRIBUTING.md",
+    "docs",
+    "js/tests",
+    "test-infra"
+  ],
+  "dependencies": {
+    "jquery": "1.9.1 - 2"
+  }
+}
