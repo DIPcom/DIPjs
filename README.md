@@ -28,3 +28,36 @@ $ bower install dipcom-dipjs
 </body>
 
 ```
+
+
+Custom control.
+```js
+
+DIP.Control.YoyrControlName = function(){
+    
+    var the = this;
+    
+    
+    this.startup = function(){
+        //First method run    
+    };
+    
+    
+    
+    this.runMethodName = function(){
+        //Auto run method
+    }
+    
+    /*
+     * if you click on link with class 'ajax' that runs ajax.
+     * <a href="?do=name" class="ajax">link</a>
+     *   
+     */
+    this.handleName = function(result, events){
+        //Method runs if ajax handle is succeeded
+    }
+    
+
+}
+
+```
