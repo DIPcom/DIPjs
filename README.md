@@ -33,7 +33,7 @@ $ bower install dipcom-dipjs
 Custom control.
 ```js
 
-DIP.Control.YoyrControlName = function(){
+DIP.Control.YourControlName = function(){
     
     var the = this;
     
